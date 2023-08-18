@@ -1,0 +1,13 @@
+<div>
+  <app-donut />
+</div>
+
+<div>
+  <button (click)="startTest()">Start Test</button>
+</div>
+<div *ngIf="downloadSpeed > 0">
+  Download Speed: {{ downloadSpeed | number: '1.2-2' }} Mbps
+</div>
+<div *ngIf="uploadSpeed > 0">
+  Upload Speed: {{ uploadSpeed | number: '1.2-2' }} Mbps
+</div>

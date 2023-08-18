@@ -30,7 +30,6 @@ nav {
 }
 
 main {
-    background-color: #14d3a6;
     grid-area: main;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);

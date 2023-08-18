@@ -1,0 +1,12 @@
+{
+    "/api/*": {
+      "target": "https://speed.hetzner.de",
+      "secure": false,
+      "pathRewrite" : {
+        "^/api/": ""
+      },
+      "changeOrigin": true,
+      "logLevel": "debug"
+    }
+  }
+  
